@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 0fa1f254eaa9cd54eb51741e3816a191
+guid: 01576fd96837855438254489650c613b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4659742641090003611
-    second: cat_right_back_0
+      213: 5424578738260276284
+    second: TicketMachine_0
   - first:
-      213: -7927918434005625203
-    second: cat_right_back_1
+      213: -945844674969917081
+    second: TicketMachine_1
+  - first:
+      213: 4280595138623504415
+    second: TicketMachine_2
+  - first:
+      213: 6865778861709523602
+    second: TicketMachine_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 46
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -92,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cat_right_back_0
+      name: TicketMachine_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 17
-        width: 41
-        height: 37
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92002b22ccc344547843716ddd3b7000
-      internalID: -4659742641090003611
+      spriteID: 9aff0d5770c63d946bdf1d319bc1376b
+      internalID: 5424578738260276284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_right_back_1
+      name: TicketMachine_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 18
-        width: 39
-        height: 36
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +133,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0d26aa3c31ab964f8ba392fbf7532e2
-      internalID: -7927918434005625203
+      spriteID: 82ff5519d199fb94fa740707fd43652e
+      internalID: -945844674969917081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TicketMachine_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d9d50a35450df4481c62a1d5fd14b3
+      internalID: 4280595138623504415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TicketMachine_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc0d5b485b37f64bb2689968be25dae
+      internalID: 6865778861709523602
       vertices: []
       indices: 
       edges: []
