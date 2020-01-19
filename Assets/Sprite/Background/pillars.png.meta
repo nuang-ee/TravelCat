@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: a9d649be68c43ce4c98468d6bba69d7c
+guid: a1549e0daebde9d468c78058381fed1b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8922328891513336043
-    second: npc_0
+      213: -3777793517876888765
+    second: pillars_0
   - first:
-      213: 5527661196443274707
-    second: npc_1
+      213: -347248075366841778
+    second: pillars_1
   - first:
-      213: -2495014906627460004
-    second: npc_2
+      213: -1213036255528317540
+    second: pillars_2
   - first:
-      213: 5610367206947713552
-    second: npc_3
+      213: 4591877312507497515
+    second: pillars_3
   - first:
-      213: 2230936588577103941
-    second: npc_4
+      213: -369942900157323991
+    second: pillars_4
   - first:
-      213: -9111473675286820144
-    second: npc_5
+      213: -1745863990912121733
+    second: pillars_5
   - first:
-      213: -5627484699997550656
-    second: npc_6
+      213: -2901974315643516265
+    second: pillars_6
   - first:
-      213: -5051899674784280284
-    second: npc_7
+      213: 2209224853639453896
+    second: pillars_7
+  - first:
+      213: -6675332654869201065
+    second: pillars_8
+  - first:
+      213: 7702622200773343813
+    second: pillars_9
+  - first:
+      213: 7258315461620346864
+    second: pillars_10
+  - first:
+      213: -5334505303420598092
+    second: pillars_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -66,10 +78,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,160 +122,244 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npc_0
+      name: pillars_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 96
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feeeab63abcdc3c4ea7fd0ef8c847819
-      internalID: -8922328891513336043
+      spriteID: d237bb3c84cd4fa4fba3738e8f418c50
+      internalID: -3777793517876888765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_1
+      name: pillars_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 96
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 709794d02b0c71e4aa75fda15ff8c608
-      internalID: 5527661196443274707
+      spriteID: 571861410aba0704e8ca6763adbca8b4
+      internalID: -347248075366841778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 054e35a4c2a793940948c8e32c424c80
-      internalID: -2495014906627460004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_3
+      name: pillars_2
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45b9c71dd1181f74682d141728472927
-      internalID: 5610367206947713552
+      spriteID: 9c0239bf2858f7749b29546801e43a19
+      internalID: -1213036255528317540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_4
+      name: pillars_3
       rect:
         serializedVersion: 2
         x: 32
         y: 64
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf8f0500719d00940981b3a75bc01e1e
-      internalID: 2230936588577103941
+      spriteID: 9bae1484794107d43afb86972c278294
+      internalID: 4591877312507497515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_5
+      name: pillars_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 65
         y: 64
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1daa53e39e728434da8f879327266b36
-      internalID: -9111473675286820144
+      spriteID: 3fac0d184b264d4408f2e94f0bd05443
+      internalID: -369942900157323991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_6
+      name: pillars_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13102a832e1b7bd4d991044f244411ef
+      internalID: -1745863990912121733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillars_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764b673d70da664499b9b6cf408bd1ce
+      internalID: -2901974315643516265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillars_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedb00c8673537b47ab7311ed51ec324
+      internalID: 2209224853639453896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillars_8
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ac09f47ffcb32e42b7dbb95a1729a33
-      internalID: -5627484699997550656
+      spriteID: e3f24c947e3c67f4b94de68ddd953c9f
+      internalID: -6675332654869201065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_7
+      name: pillars_9
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e308a71dc72ec44a953526139308d4b
+      internalID: 7702622200773343813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillars_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bde562cf0236c94e8a17de29578a50e
+      internalID: 7258315461620346864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillars_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 97
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +367,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cb963e9c186ed04e990efb796ccf3f3
-      internalID: -5051899674784280284
+      spriteID: deff518bc152eb34e912c3a909082690
+      internalID: -5334505303420598092
       vertices: []
       indices: 
       edges: []

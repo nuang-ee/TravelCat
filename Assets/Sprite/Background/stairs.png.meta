@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: a9d649be68c43ce4c98468d6bba69d7c
+guid: 96e3920942c9db24c9924b339c7617e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8922328891513336043
-    second: npc_0
+      213: -3821777026937811026
+    second: stairs_0
   - first:
-      213: 5527661196443274707
-    second: npc_1
+      213: -8232476812802598434
+    second: stairs_1
   - first:
-      213: -2495014906627460004
-    second: npc_2
+      213: -4874231678427873996
+    second: stairs_2
   - first:
-      213: 5610367206947713552
-    second: npc_3
+      213: 7286528348642317316
+    second: stairs_3
   - first:
-      213: 2230936588577103941
-    second: npc_4
+      213: 5575599648038114821
+    second: stairs_4
   - first:
-      213: -9111473675286820144
-    second: npc_5
+      213: -7899257040606243478
+    second: stairs_5
   - first:
-      213: -5627484699997550656
-    second: npc_6
+      213: -2666231112281015561
+    second: stairs_6
   - first:
-      213: -5051899674784280284
-    second: npc_7
+      213: 8703298775209903626
+    second: stairs_7
+  - first:
+      213: -4661043040186468030
+    second: stairs_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -69,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,34 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npc_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: feeeab63abcdc3c4ea7fd0ef8c847819
-      internalID: -8922328891513336043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_1
+      name: stairs_0
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 96
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 709794d02b0c71e4aa75fda15ff8c608
-      internalID: 5527661196443274707
+      spriteID: 179e72fc9bf80fd44a23772f3a188956
+      internalID: -3821777026937811026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_2
+      name: stairs_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 96
+        y: 96
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,41 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 054e35a4c2a793940948c8e32c424c80
-      internalID: -2495014906627460004
+      spriteID: b78f0def49928d0478a75ec6e827e0c6
+      internalID: -8232476812802598434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45b9c71dd1181f74682d141728472927
-      internalID: 5610367206947713552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_4
+      name: stairs_2
       rect:
         serializedVersion: 2
         x: 32
         y: 64
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf8f0500719d00940981b3a75bc01e1e
-      internalID: 2230936588577103941
+      spriteID: 8110f528890023245b1d21311b7a1198
+      internalID: -4874231678427873996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_5
+      name: stairs_3
       rect:
         serializedVersion: 2
-        x: 64
+        x: 96
         y: 64
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1daa53e39e728434da8f879327266b36
-      internalID: -9111473675286820144
+      spriteID: 071e3b6f07ce91c45a7bb2434c385036
+      internalID: 7286528348642317316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_6
+      name: stairs_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 32
+        y: 32
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +211,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ac09f47ffcb32e42b7dbb95a1729a33
-      internalID: -5627484699997550656
+      spriteID: daf047e398ade3b4c9db3c1bca9c2bca
+      internalID: 5575599648038114821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_7
+      name: stairs_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd92dc3be268891488c435d702bcc372
+      internalID: -7899257040606243478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs_6
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +253,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cb963e9c186ed04e990efb796ccf3f3
-      internalID: -5051899674784280284
+      spriteID: 08160f77210e86c43aac3cb8b0f28474
+      internalID: -2666231112281015561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6875d486e67ef4747be7c5c8f33b8814
+      internalID: 8703298775209903626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518142928bd56754ab5ffd3e84f532ea
+      internalID: -4661043040186468030
       vertices: []
       indices: 
       edges: []
