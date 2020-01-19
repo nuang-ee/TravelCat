@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class TrainMovement : MonoBehaviour
 {
-    public Vector2 goal = new Vector3(-12f, -4f, 0);
+    public Vector2 start;
+    public Vector2 goal;
     private float yVelocity = 0.0f;
     public float smoothTime = 1.0f;
     public bool isArrived = false;
     void Awake() {
-        gameObject.transform.position = new Vector3(-12f, 9f, 0);
+        gameObject.transform.position = new Vector3(start.x, start.y, 0);
     }
 
     // Update is called once per frame

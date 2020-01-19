@@ -7,15 +7,22 @@ public class CameraMovement : MonoBehaviour
     public PlayerController player;
 
     private float t = 0;
-    private float targetTime = 1.0f;
-    private bool finished = false;
+    private float targetTime = 1.5f;
+    private bool finished;
+    private bool init;
+    public GameObject train;
+
+    void Awake() {
+        finished = false;
+        init = true;
+    }
 
     void Update()
     {
-        if (!(t >= targetTime)) {
-            Debug.Log("asdasd");
+        if (t <= targetTime && init && !player.isArrived) { //Zoom in
             t += Time.deltaTime;
-            transform.GetComponent<Camera>().orthographicSize = Mathf.Lerp(transform.GetComponent<Camera>().orthographicSize, 3.0f, t/targetTime);
+            transform.GetComponent<Camera>().orthographicSize = Mathf.Lerp(transform.GetComponent<Camera>().orthographicSize, 4.0f, t/targetTime);
+            if (t > targetTime) init = false;
         }
 
         if (!player.isArrived) {
@@ -24,8 +31,7 @@ public class CameraMovement : MonoBehaviour
         }
 
         else {
-            if (!(t >= targetTime)) {
-                Debug.Log("asdasd");
+            if (t <= targetTime) { //Zoom out
                 t += Time.deltaTime;
                 transform.GetComponent<Camera>().orthographicSize = Mathf.Lerp(transform.GetComponent<Camera>().orthographicSize, 6.0f, t/targetTime);
             }
