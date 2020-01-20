@@ -10,12 +10,14 @@ public class NpcStatus : MonoBehaviour
     private float angryTime;
     private GameObject AngryState;
     private GameObject QuestionState;
+    public GameObject GameOverPanel;
 
     void Awake() {
         isNormal = true;
         isAngry = false;
         AngryState = transform.GetChild(0).gameObject;
         QuestionState = transform.GetChild(1).gameObject;
+        GameOverPanel = GameObject.Find("Canvas").transform.GetChild(0).gameObject; //TODO: Fix this After Merge
     }
 
 
@@ -55,7 +57,8 @@ public class NpcStatus : MonoBehaviour
                 }
 
                 if (isAngry) {
-                    SceneManager.LoadScene(0);
+                    Time.timeScale = 0;
+                    GameOverPanel.SetActive(true);
                 }
             }
         }
