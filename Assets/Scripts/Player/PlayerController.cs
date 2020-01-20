@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float startDashTime;
     public float dashCoolDown;
     private int direction;
+    public bool isDashing;
     public static Vector3 startPosition = new Vector3(-8f, 0f, -1f);
 
     [Space]
@@ -44,6 +45,7 @@ public class PlayerController : MonoBehaviour
         gameObject.transform.position = startPosition;
         gameObject.GetComponent<CircleCollider2D>().enabled = false;
         gameObject.GetComponent<Animator>().enabled = false;
+        isDashing = false;
     }
 
     void Update()
@@ -101,7 +103,8 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("Dash!");
                 direction = 1;
                 Instantiate(dashEffect, transform.position, Quaternion.identity);
-                gameObject.GetComponent<CircleCollider2D>().isTrigger = true;
+                //gameObject.GetComponent<CircleCollider2D>().isTrigger = true;
+                isDashing = true;
             }
         }
         else {
@@ -110,9 +113,10 @@ public class PlayerController : MonoBehaviour
                 dashTime = startDashTime;
                 rigidbody.velocity = Vector2.zero;
                 dashCoolDown = 2.0f;
-                gameObject.GetComponent<CircleCollider2D>().isTrigger = false;
+                //gameObject.GetComponent<CircleCollider2D>().isTrigger = false;
+                isDashing = false;
             } else if (dashCoolDown <= 0) {
-
+                isDashing = true;
                 dashTime -= Time.deltaTime;
                 rigidbody.velocity = movementDirection * dashSpeed;
             }
