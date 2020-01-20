@@ -20,8 +20,6 @@ public class NPCAngry : MonoBehaviour
             gameObject.GetComponent<Animator>().SetFloat("Horizontal", moving.x);
             gameObject.GetComponent<Animator>().SetFloat("Vertical", moving.y);
             gameObject.GetComponent<Animator>().SetFloat("Speed", moving.magnitude);
-
-
         }
     }
 }
