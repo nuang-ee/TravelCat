@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class ButtonOnclick : MonoBehaviour
 {
     public void SceneRestart() {
-        Destroy(gameObject);
         Time.timeScale = 1;
+        Destroy(gameObject);
         SceneManager.LoadScene(0);
     }
 

@@ -11,6 +11,7 @@ public class CameraMovement : MonoBehaviour
     private bool finished;
     private bool init;
     public GameObject train;
+    
 
     void Awake() {
         finished = false;

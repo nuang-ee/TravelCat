@@ -26,9 +26,11 @@ public class NPCCoin : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) {
-            if (catTouched <2){
-            newCoinInstance = Instantiate(coin, transform.position, Quaternion.identity);
-            catTouched += 1;
+            if (other.GetComponent<PlayerController>().isDashing) {
+                if (catTouched <2){
+                    newCoinInstance = Instantiate(coin, transform.position, Quaternion.identity);
+                    catTouched += 1;
+                }
             }
         }
         

@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 flyingPosition = startPosition + new Vector3(2.0f, 1.0f, 0f);
     private Vector3 landingPosition = startPosition + new Vector3(4.0f, 0f, 0f);
 
-    private float flyingTime = 0.1f;
+    private float flyingTime = 0.05f;
     private bool isFlying = true;
     private Vector3 flyingSpeed = Vector3.zero;
 
@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
         gameObject.GetComponent<CircleCollider2D>().enabled = false;
         gameObject.GetComponent<Animator>().enabled = false;
         isDashing = false;
+        transform.position = new Vector3(-8, 1, 0);
     }
 
     void Update()
