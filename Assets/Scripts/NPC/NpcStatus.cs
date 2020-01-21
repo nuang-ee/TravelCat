@@ -64,6 +64,7 @@ public class NpcStatus : MonoBehaviour
 
                 if (isAngry) {
                     Time.timeScale = 0;
+                    SoundManager.PlaySound("meow");
                     GameOverPanel.SetActive(true);
                 }
             }

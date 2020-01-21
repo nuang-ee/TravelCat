@@ -15,14 +15,16 @@ public class ScoreManager : MonoBehaviour
         if (instance ==null)
         {
             instance = this;
-            text.text = score.ToString() + "/10";
+            text.text = score.ToString() + "/5";
         }
         
     }
 
     public void ChangeScore(int coinValue)
     {
-        score += coinValue;
-        text.text =  score.ToString() + "/10";
+        if (score <= 4) {
+            score += coinValue;
+            text.text =  score.ToString() + "/5";
+        }
     }
 }

@@ -103,6 +103,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space)) { // Space == Dash
                 Debug.Log("Dash!");
                 direction = 1;
+                SoundManager.PlaySound("dash");
                 Instantiate(dashEffect, transform.position, Quaternion.identity);
                 //gameObject.GetComponent<CircleCollider2D>().isTrigger = true;
                 isDashing = true;

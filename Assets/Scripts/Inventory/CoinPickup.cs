@@ -41,7 +41,7 @@ public class CoinPickup : MonoBehaviour {
             Instantiate(effect, other.transform.position, Quaternion.identity);
             // Instantiate(itemButton, inventory.slots[i].transform, false); // spawn the button so that the player can interact with it
             Destroy(gameObject);
-            
+            SoundManager.PlaySound("coin");
             ScoreManager.instance.ChangeScore(coinValue);
         }
         

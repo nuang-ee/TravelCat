@@ -54,7 +54,7 @@ public class TrainMovement : MonoBehaviour
         if (coll.gameObject.tag == "Player") {
             if (coll.gameObject.GetComponent<PlayerController>().isDashing) {
                 if (GameObject.Find("ScoreManager") != null) {
-                    if (GameObject.Find("ScoreManager").GetComponent<ScoreManager>().score >= 10) {
+                    if (GameObject.Find("ScoreManager").GetComponent<ScoreManager>().score >= 5) {
                         isDeparting = true;
                         succeed = true;
                     }
