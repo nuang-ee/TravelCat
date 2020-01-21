@@ -26,7 +26,10 @@ public class NpcStatus : MonoBehaviour
 
         if (isAngry) {
             gameObject.GetComponent<NPCAngry>().enabled = true;
-            gameObject.GetComponent<NPCPatrol>().enabled = false;
+            if (gameObject.GetComponent<NPCPatrol>() != null) {
+                gameObject.GetComponent<NPCPatrol>().enabled = false;
+            }
+            else gameObject.GetComponent<NPCPatrolAround>().enabled = false;
             AngryState.SetActive(true);
             if (angryTime <= 0) {
                 calmDown();
@@ -40,7 +43,10 @@ public class NpcStatus : MonoBehaviour
 
     private void calmDown() {
         gameObject.GetComponent<NPCAngry>().enabled = false;
-        gameObject.GetComponent<NPCPatrol>().enabled = true;
+        if (gameObject.GetComponent<NPCPatrol>() != null) {
+                gameObject.GetComponent<NPCPatrol>().enabled = true;
+            }
+        else gameObject.GetComponent<NPCPatrolAround>().enabled = true;
         isAngry = false;
         isNormal = true;
         AngryState.SetActive(false);
@@ -65,7 +71,10 @@ public class NpcStatus : MonoBehaviour
     }
 
     IEnumerator getAngry(Collider2D collider) {
-        gameObject.GetComponent<NPCPatrol>().enabled = false;
+        if (gameObject.GetComponent<NPCPatrol>() != null) {
+                gameObject.GetComponent<NPCPatrol>().enabled = false;
+            }
+        else gameObject.GetComponent<NPCPatrolAround>().enabled = false;
         yield return new WaitForSecondsRealtime(2);
         QuestionState.SetActive(false);
         isAngry = true;

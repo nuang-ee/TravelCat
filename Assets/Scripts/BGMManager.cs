@@ -20,7 +20,7 @@ public class BGMManager : MonoBehaviour
     }
 
     void Update() {
-        if (charCounter <= textContents.Length) {
+        if (charCounter < textContents.Length) {
             if (timeCount <= 0) {
                 gameStartText.text += textContents[charCounter];
                 gameStartTextHighlight.text += textContents[charCounter];
